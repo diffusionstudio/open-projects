@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { cubicBezier } from "animejs";
 import { useTicker } from "@diffusionstudio/jsx";
 import { SIZE, INK } from "./theme";
+import { dom } from "./dom";
 
 export const DUR = 7;
 
@@ -130,11 +131,15 @@ const SHADER = /* wgsl */ `
   }
 `;
 
-function GradientBand(props) {
-  const { time } = useTicker();
+export function GradientBand(props) {
+  const { time, hold } = useTicker();
   const [gpu, setGpu] = createSignal();
+  let surfaceRef;
 
-  const setup = async (el) => {
+  const setup = async () => {
+    const el = surfaceRef?.element;
+    if (!el) return;
+
     const adapter = await navigator.gpu?.requestAdapter();
     if (!adapter) throw new Error("WebGPU is not available");
     const device = await adapter.requestDevice();
@@ -175,6 +180,11 @@ function GradientBand(props) {
     setGpu({ device, context, pipeline, uniforms, bindGroup });
   };
 
+  // held, so a capture or an export — which mounts the module again and sets
+  // up a device of its own — waits for the pipeline instead of sampling the
+  // band's first frames empty
+  onMount(() => hold(setup()));
+
   createEffect(() => {
     const g = gpu();
     const t = Math.min(Math.max(time() - props.start, 0), DUR);
@@ -213,13 +223,13 @@ function GradientBand(props) {
       height={BAND_H}
       start={props.start}
       end={props.start + DUR}
-      ref={setup}
+      ref={surfaceRef} id="hxpp9e"
     />
   );
 }
 
 // content starts entering while the band is still opening
-const CONTENT_DELAY = 0.8;
+export const CONTENT_DELAY = 0.8;
 
 const MARGIN = 120;
 const MUTED = "rgba(17,17,17,0.45)";
@@ -267,7 +277,7 @@ const STRIPS = [
 const CONTENT_TOTAL = DUR - CONTENT_DELAY;
 const STROKE_AT = 1.0; // midway through the text entrances
 
-function SummaryContent(props) {
+export function SummaryContent(props) {
   const { time } = useTicker();
   let eyebrowEl;
   const headChars = [];
@@ -342,7 +352,7 @@ function SummaryContent(props) {
   });
 
   return (
-    <html {...SIZE} x={0} y={0} start={props.start} end={props.end}>
+    <html name="Summary" {...SIZE} x={0} y={0} start={props.start} end={props.end} id="mazm12">
       <div
         style={{
           position: "relative",
@@ -357,7 +367,7 @@ function SummaryContent(props) {
           <For each={STRIPS}>
             {(s, i) => (
               <div
-                ref={(el) => (strokeWraps[i()] = el)}
+                ref={(el) => (strokeWraps[i()] = dom(el))}
                 style={{
                   position: "absolute",
                   left: `${s.left}px`,
@@ -369,7 +379,7 @@ function SummaryContent(props) {
                 }}
               >
                 <div
-                  ref={(el) => (strokeRots[i()] = el)}
+                  ref={(el) => (strokeRots[i()] = dom(el))}
                   style={{
                     position: "absolute",
                     left: `${SIZE.width / 2 - CONIC_SIZE / 2 - s.left}px`,
@@ -385,7 +395,7 @@ function SummaryContent(props) {
         </div>
 
         <div
-          ref={(el) => (eyebrowEl = el)}
+          ref={(el) => (eyebrowEl = dom(el))}
           style={{
             position: "absolute",
             left: `${MARGIN}px`,
@@ -410,7 +420,7 @@ function SummaryContent(props) {
         >
           <For each={"$12M raised".split("")}>
             {(ch, i) => (
-              <span ref={(el) => (headChars[i()] = el)} style={{ display: "inline-block", "white-space": "pre" }}>
+              <span ref={(el) => (headChars[i()] = dom(el))} style={{ display: "inline-block", "white-space": "pre" }}>
                 {ch}
               </span>
             )}
@@ -418,7 +428,7 @@ function SummaryContent(props) {
         </div>
 
         <div
-          ref={(el) => (sepEl = el)}
+          ref={(el) => (sepEl = dom(el))}
           style={{
             position: "absolute",
             left: `${MARGIN}px`,
@@ -442,16 +452,16 @@ function SummaryContent(props) {
           }}
         >
           <span
-            ref={(el) => (rowEls[0] = el)}
+            ref={(el) => (rowEls[0] = dom(el))}
             style={{ "font-size": "28px", "font-weight": 500, color: MUTED }}
           >
             Backed by
           </span>
           <div style={{ display: "flex", "align-items": "center", gap: "64px" }}>
-            <div ref={(el) => (rowEls[1] = el)} style={{ height: "30px" }} innerHTML={SEQUOIA_SVG} />
-            <div ref={(el) => (rowEls[2] = el)} style={{ height: "32px" }} innerHTML={GP_SVG} />
+            <div ref={(el) => (rowEls[1] = dom(el))} style={{ height: "30px" }} innerHTML={SEQUOIA_SVG} />
+            <div ref={(el) => (rowEls[2] = dom(el))} style={{ height: "32px" }} innerHTML={GP_SVG} />
             <span
-              ref={(el) => (rowEls[3] = el)}
+              ref={(el) => (rowEls[3] = dom(el))}
               style={{ "font-size": "30px", "font-weight": 700, "letter-spacing": "0.08em" }}
             >
               BADRUL
@@ -464,7 +474,7 @@ function SummaryContent(props) {
             <For each={col}>
               {(name, r) => (
                 <div
-                  ref={(el) => nameEls.push({ el, row: r(), col: c() })}
+                  ref={(el) => nameEls.push({ el: dom(el), row: r(), col: c() })}
                   style={{
                     position: "absolute",
                     left: `${MARGIN + c() * COL_W}px`,
@@ -482,14 +492,5 @@ function SummaryContent(props) {
         </For>
       </div>
     </html>
-  );
-}
-
-export function SummaryScene(props) {
-  return (
-    <group name="Summary">
-      <GradientBand start={props.start} />
-      <SummaryContent start={props.start + CONTENT_DELAY} end={props.start + DUR} />
-    </group>
   );
 }

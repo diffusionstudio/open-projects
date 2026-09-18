@@ -1,6 +1,6 @@
 /* ── art ─────────────────────────────────────────────────────────────────── */
 
-// Verbatim from the exports in `assets/`; the panel glyphs keep the panel's
+// Verbatim from the exports in `design/`; the panel glyphs keep the panel's
 // 1756×647 coordinates. Data URIs because `<html>` is painted through a
 // read-back that drops cross-origin subresources.
 

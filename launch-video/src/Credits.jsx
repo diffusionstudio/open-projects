@@ -22,34 +22,42 @@ import {
 // ground. The fade is the node's own keyframes, the arrival out of the
 // viewer is the store's scale on the div.
 
+export function CreditsGround() {
+  return (
+    <rect
+      name="Credits ground"
+      width={W}
+      height={H}
+      fill={C_TEXT}
+      start={T_GROUND / 1000}
+      end={CREDITS_END / 1000}
+      id="hyf3e6" clipHeight={28}
+    >
+      <keyframeTrack property="opacity" id="jteqbd">
+        <keyframe time={0} value={0} easing={GROUND_EASE} id="twkk9a" />
+        <keyframe time={GROUND_IN / 1000} value={1} id="3y020v" />
+      </keyframeTrack>
+    </rect>
+  );
+}
+
 export function Credits(props) {
   const v = () => props.v;
 
   return (
-    <>
-      <rect
-        name="Credits ground"
-        width={W}
-        height={H}
-        fill={C_TEXT}
-        start={T_GROUND / 1000}
-        end={CREDITS_END / 1000}
-        opacity={[
-          { time: 0, value: 0, easing: GROUND_EASE },
-          { time: GROUND_IN / 1000, value: 1 },
-        ]}
-      />
-      <html
-        name="Credits"
-        width={W}
-        height={H}
-        start={T_TITLE / 1000}
-        end={CREDITS_END / 1000}
-        opacity={[
-          { time: 0, value: 0, easing: TITLE_EASE },
-          { time: TITLE_FADE / 1000, value: 1 },
-        ]}
-      >
+    <rect
+      name="Credits"
+      width={W}
+      height={H}
+      start={T_TITLE / 1000}
+      end={CREDITS_END / 1000}
+      id="u7d7gz"
+    >
+      <keyframeTrack property="opacity" id="3htgjr">
+        <keyframe time={0} value={0} easing={TITLE_EASE} id="u7kv2c" />
+        <keyframe time={TITLE_FADE / 1000} value={1} id="nx6p6p" />
+      </keyframeTrack>
+      <htmlPaint id="9th9ql">
       <div
         style={`position:relative;width:${W}px;height:${H}px;overflow:hidden;
                 display:flex;align-items:center;justify-content:center;
@@ -73,7 +81,7 @@ export function Credits(props) {
           {TITLE}
         </div>
       </div>
-      </html>
-    </>
+      </htmlPaint>
+    </rect>
   );
 }

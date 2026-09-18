@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { cubicBezier } from "animejs";
 import { useTicker } from "@diffusionstudio/jsx";
 import { SIZE, INK, ACCENT } from "./theme";
+import { dom } from "./dom";
 
 const AMOUNT = "$12,000,000";
 const READ_SIZE = 160; // font size at the readability point, near full-bleed
@@ -29,7 +30,7 @@ export function AmountScene(props) {
   onMount(() => {
     tl = gsap.timeline({ paused: true, defaults: { lazy: false } });
     tl.fromTo(
-      el,
+      dom(el),
       { xPercent: -50, yPercent: -50, scale: S_FROM },
       { scale: S_TO, duration: DUR, ease: shaped },
       0
@@ -52,7 +53,7 @@ export function AmountScene(props) {
   });
 
   return (
-    <html {...SIZE} x={0} y={0} start={props.start} end={props.start + DUR}>
+    <html name="Amount" {...SIZE} x={0} y={0} start={props.start} end={props.start + DUR} id="75c3bc">
       <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden" }}>
         <div
           ref={el}

@@ -89,7 +89,7 @@ export function Prompt(props) {
       width={W}
       height={H}
       start={T_PANEL_IN / 1000}
-      end={PROMPT_END / 1000}
+      end={PROMPT_END / 1000} id="paik1l"
     >
       <div
         style={`position:relative;width:${W}px;height:${H}px;overflow:hidden;

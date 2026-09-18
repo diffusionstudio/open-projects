@@ -1,0 +1,254 @@
+# Diffusion Studio asset library. Edited by the app; hand edits are read on the next load.
+version: 1
+folders: []
+assets:
+  - id: 32fcae3237d5cbc9
+    path: thumbnail.png
+    source: assets/thumbnail.png
+    createdAt: 2026-09-18T18:07:07.489Z
+    mimeType: image/png
+    stat:
+      size: 1242643
+      mtime: 1786224674475
+    type: IMAGE
+    width: 1920
+    height: 1080
+  - id: 9cf0d0c0c9248419
+    path: covers-640p/aroll_frame_7_4.877s.png
+    source: assets/covers-640p/aroll_frame_7_4.877s.png
+    createdAt: 2026-09-18T18:07:07.374Z
+    mimeType: image/png
+    stat:
+      size: 801193
+      mtime: 1786224674473
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: ec76423c66d1531e
+    path: covers-640p/aroll_frame_5_3.249s.png
+    source: assets/covers-640p/aroll_frame_5_3.249s.png
+    createdAt: 2026-09-18T18:07:07.339Z
+    mimeType: image/png
+    stat:
+      size: 761664
+      mtime: 1786224674469
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: f4fda8359f7dd3f5
+    path: covers-640p/aroll_frame_3_0.911s.png
+    source: assets/covers-640p/aroll_frame_3_0.911s.png
+    createdAt: 2026-09-18T18:07:07.295Z
+    mimeType: image/png
+    stat:
+      size: 741621
+      mtime: 1786224674468
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: 978ffb1629079f6e
+    path: covers-640p/aroll_frame_1_0.435s.png
+    source: assets/covers-640p/aroll_frame_1_0.435s.png
+    createdAt: 2026-09-18T18:07:07.257Z
+    mimeType: image/png
+    stat:
+      size: 837373
+      mtime: 1786224674467
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: a5b16ecebe99485c
+    path: covers-640p/Screenshot 2026-08-08 at 12.21.40.png
+    source: assets/covers-640p/Screenshot 2026-08-08 at 12.21.40.png
+    createdAt: 2026-09-18T18:07:07.212Z
+    mimeType: image/png
+    stat:
+      size: 383762
+      mtime: 1786224674466
+    type: IMAGE
+    width: 1024
+    height: 640
+  - id: fb9b94840c567564
+    path: covers-640p/Screenshot 2026-08-08 at 12.20.16.png
+    source: assets/covers-640p/Screenshot 2026-08-08 at 12.20.16.png
+    createdAt: 2026-09-18T18:07:07.186Z
+    mimeType: image/png
+    stat:
+      size: 431059
+      mtime: 1786224674464
+    type: IMAGE
+    width: 1024
+    height: 640
+  - id: 4b16fa9bd415dbe5
+    path: covers-640p/IMG_3228.png
+    source: assets/covers-640p/IMG_3228.png
+    createdAt: 2026-09-18T18:07:07.154Z
+    mimeType: image/png
+    stat:
+      size: 636383
+      mtime: 1786224674463
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: f4f4421e1df3a024
+    path: covers-640p/IMG_3224.png
+    source: assets/covers-640p/IMG_3224.png
+    createdAt: 2026-09-18T18:07:07.125Z
+    mimeType: image/png
+    stat:
+      size: 785202
+      mtime: 1786224674462
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: 65465b3c91e4e0aa
+    path: covers-640p/IMG_3209.png
+    source: assets/covers-640p/IMG_3209.png
+    createdAt: 2026-09-18T18:07:07.090Z
+    mimeType: image/png
+    stat:
+      size: 709844
+      mtime: 1786224674462
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: 1dee6c2bc6bff90c
+    path: covers-640p/IMG_3207.png
+    source: assets/covers-640p/IMG_3207.png
+    createdAt: 2026-09-18T18:07:07.053Z
+    mimeType: image/png
+    stat:
+      size: 717741
+      mtime: 1786224674461
+    type: IMAGE
+    width: 1137
+    height: 640
+  - id: 2e0475a614c4cab0
+    path: aroll.mp4
+    source: assets/aroll.mp4
+    createdAt: 2026-09-18T18:07:07.005Z
+    mimeType: video/mp4; codecs="avc1.640032"
+    stat:
+      size: 11652320
+      mtime: 1786224674459
+    type: VIDEO
+    width: 1920
+    height: 1080
+    frameRate: 24.02489626556017
+    bitRate: 11599022.73858921
+    duration: 8.033333333333333
+  - id: 76427409eb5eb82d
+    path: aroll-post.mp4
+    source: assets/aroll-post.mp4
+    createdAt: 2026-09-18T18:07:06.966Z
+    mimeType: video/mp4; codecs="mp4a.40.2, avc1.640029"
+    stat:
+      size: 32896272
+      mtime: 1786224674448
+    type: VIDEO
+    width: 1920
+    height: 1080
+    frameRate: 30
+    bitRate: 32890106
+    duration: 8
+    sampleRate: 48000
+    channels: 2
+  - id: b8ee6137fe66d1b4
+    path: agents/pi.svg
+    source: assets/agents/pi.svg
+    createdAt: 2026-09-18T18:07:06.930Z
+    mimeType: image/svg+xml
+    stat:
+      size: 400
+      mtime: 1786224674414
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: d97f6a0a7323e8d7
+    path: agents/opencode.svg
+    source: assets/agents/opencode.svg
+    createdAt: 2026-09-18T18:07:06.919Z
+    mimeType: image/svg+xml
+    stat:
+      size: 264
+      mtime: 1786224674414
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: 9488a05ab30a3912
+    path: agents/openclaw-color.svg
+    source: assets/agents/openclaw-color.svg
+    createdAt: 2026-09-18T18:07:06.894Z
+    mimeType: image/svg+xml
+    stat:
+      size: 4588
+      mtime: 1786224674414
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: 64cb391075058a1d
+    path: agents/openai.svg
+    source: assets/agents/openai.svg
+    createdAt: 2026-09-18T18:07:06.876Z
+    mimeType: image/svg+xml
+    stat:
+      size: 2950
+      mtime: 1786224674413
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: 666a7ea7db85901e
+    path: agents/hermesagent.svg
+    source: assets/agents/hermesagent.svg
+    createdAt: 2026-09-18T18:07:06.866Z
+    mimeType: image/svg+xml
+    stat:
+      size: 36731
+      mtime: 1786224674413
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: eb8024c76e2978c0
+    path: agents/githubcopilot.svg
+    source: assets/agents/githubcopilot.svg
+    createdAt: 2026-09-18T18:07:06.863Z
+    mimeType: image/svg+xml
+    stat:
+      size: 3163
+      mtime: 1786224674413
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: b85003bf2680bae2
+    path: agents/gemini-color.svg
+    source: assets/agents/gemini-color.svg
+    createdAt: 2026-09-18T18:07:06.858Z
+    mimeType: image/svg+xml
+    stat:
+      size: 6360
+      mtime: 1786224674413
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: 5edbf35243026143
+    path: agents/cursor.svg
+    source: assets/agents/cursor.svg
+    createdAt: 2026-09-18T18:07:06.754Z
+    mimeType: image/svg+xml
+    stat:
+      size: 1122
+      mtime: 1786224674412
+    type: IMAGE
+    width: 88
+    height: 88
+  - id: f01807decb2ff8a8
+    path: agents/claude-color.svg
+    source: assets/agents/claude-color.svg
+    createdAt: 2026-09-18T18:07:06.743Z
+    mimeType: image/svg+xml
+    stat:
+      size: 2613
+      mtime: 1786224674412
+    type: IMAGE
+    width: 88
+    height: 88

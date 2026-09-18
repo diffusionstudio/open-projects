@@ -21,7 +21,7 @@ export function ColdOpen(props) {
   const shown = () => CMD.slice(0, typed());
 
   return (
-    <html name="Command" width={W} height={H} end={T_GONE / 1000}>
+    <html name="Command" width={W} height={H} end={T_GONE / 1000} id="0n2qly">
       <div
         style={`position:relative;width:${W}px;height:${H}px;overflow:hidden;
                 font-family:'JetBrains Mono';font-size:${FS_BIG}px;font-weight:400;

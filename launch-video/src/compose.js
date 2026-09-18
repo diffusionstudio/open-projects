@@ -1,6 +1,7 @@
-import { FS, CW, LH, W, H } from "./frame.js";
+import { FS, CW, LH } from "./frame.js";
 import { C_TEXT, C_DIM, C_GREEN, C_CYAN, LIT, PROD } from "./theme.js";
 import { DARK } from "./timing.js";
+import { WATCH_END } from "./watch.js";
 
 /* ── composing ───────────────────────────────────────────────────────────── */
 
@@ -156,15 +157,18 @@ export const camAt = (n) => {
 /* ── the pull back ───────────────────────────────────────────────────────── */
 
 // The writing done, the camera lets it go: one pull back onto the block's
-// own middle — the settle fits the whole block inside the frame, held off
-// the edges by a margin, so the result stays large enough to read.
-const MARGIN = 90;
+// own middle — and the code is the video. The block is never allowed past
+// the player's frame: the settle fits it to the frame the footage will hold,
+// and the compare scene grows its player onto the same rect, the two
+// crossfading as they converge. The frame is stated here because the pull
+// back is aimed at it; the compare scene reads it from here.
+export const PLAYER = { x: 442, y: 248, w: 1036, h: 583, r: 26 };
 
 export const BLOCK_W = WIDEST * CW_CODE;
 export const BLOCK_H = LINES.length * LH_CODE;
 
-// the settled scale: the block fitted inside the frame's margins
-export const FIT = Math.min((W - 2 * MARGIN) / BLOCK_W, (H - 2 * MARGIN) / BLOCK_H);
+// the settled scale: the block fitted inside the player's frame
+export const FIT = Math.min(PLAYER.w / BLOCK_W, PLAYER.h / BLOCK_H);
 
 // the two cameras on one fraction — the writing's drift at k=0, the settled
 // whole at k=1 — position and scale together, so the pull back is one gesture
@@ -179,9 +183,9 @@ export const viewAt = (n, k) => {
 
 /* ── timing ──────────────────────────────────────────────────────────────── */
 
-// ms, absolute, as everywhere. The shot opens the film: dark a beat, and
-// then the tokens pour.
-export const T_COMPOSE = 0;
+// ms, absolute, as everywhere. The shot cuts in on the frame the watching is
+// out, holds dark a beat, and then the tokens pour.
+export const T_COMPOSE = WATCH_END;
 export const T_TOKENS = T_COMPOSE + DARK;
 
 // A token a beat, every beat alike; each blends up over the next few beats,
@@ -221,7 +225,7 @@ export const T_SET = T_TOKENS + TYPE_MS; // the block whole
 export const T_ZOOM = T_TOKENS + (N_TOKENS - 1 + FADE_STEPS) * STEP_DT;
 export const ZOOM = 500;
 
-// the settle is the close: the pull back lands on the player's frame and
-// the whole block holds there before the film ends
-const HOLD_END = 1000;
-export const COMPOSE_END = T_ZOOM + ZOOM + HOLD_END;
+// the settle is the hand-over: the pull back lands on the player's frame,
+// and by then the code has crossfaded into the footage — the compare scene
+// counts itself from this instant
+export const COMPOSE_END = T_ZOOM + ZOOM;

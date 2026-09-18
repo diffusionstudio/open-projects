@@ -21,7 +21,7 @@ export function Install(props) {
       width={W}
       height={H}
       start={T_BLOCK_IN / 1000}
-      end={(T_END + HAND_OUT) / 1000}
+      end={(T_END + HAND_OUT) / 1000} id="v0qyop"
     >
       <div
         style={`position:relative;width:${W}px;height:${H}px;overflow:hidden;

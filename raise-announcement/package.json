@@ -1,0 +1,18 @@
+{
+  "name": "raise-announcement",
+  "private": true,
+  "type": "module",
+  "main": "motion/intro.jsx",
+  "scripts": {
+    "open": "dapi open ."
+  },
+  "dependencies": {
+    "animejs": "^4.0.0",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "@diffusionstudio/jsx": "latest",
+    "solid-js": "^1.9.10"
+  },
+  "projectId": "Dm6vyb5xgP0eOe4hDw8TT"
+}

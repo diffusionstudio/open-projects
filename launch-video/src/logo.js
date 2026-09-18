@@ -11,7 +11,7 @@ import { CREDITS_END } from "./credits.js";
 // beside it. Icon and name land as one centred lockup, and the film is
 // signed.
 
-// the lockup's own geometry, taken from the export (assets/logo.svg)
+// the lockup's own geometry, taken from the export (design/logo.svg)
 export const LOCKUP_W = 775;
 export const LOCKUP_H = 137;
 export const ICON_W = 137; // the tile — square, radius 36.45

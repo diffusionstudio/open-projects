@@ -2,6 +2,7 @@ import { onMount, createEffect, For } from "solid-js";
 import { gsap } from "gsap";
 import { useTicker } from "@diffusionstudio/jsx";
 import { SIZE, INK, ACCENT, ANIM } from "./theme";
+import { dom } from "./dom";
 
 const EASE_OUT = "expo.out"; // dramatic entrance that settles softly, no overshoot
 const CHAR_DUR = 0.08; // how long each individual character takes to recolor
@@ -20,9 +21,9 @@ export function SlideWord(props) {
   onMount(() => {
     tl = gsap.timeline({ paused: true, defaults: { lazy: false } });
     if (props.side === "left") {
-      tl.fromTo(el, { xPercent: -100 }, { x: -props.crop, xPercent: 0, duration: ANIM, ease: EASE_OUT }, 0);
+      tl.fromTo(dom(el), { xPercent: -100 }, { x: -props.crop, xPercent: 0, duration: ANIM, ease: EASE_OUT }, 0);
     } else {
-      tl.fromTo(el, { xPercent: 100 }, { x: props.crop, xPercent: 0, duration: ANIM, ease: EASE_OUT }, 0);
+      tl.fromTo(dom(el), { xPercent: 100 }, { x: props.crop, xPercent: 0, duration: ANIM, ease: EASE_OUT }, 0);
     }
     // each character flips color on its own, staggered left -> right (reading
     // order) regardless of which edge the word slides in from; starts once
@@ -42,7 +43,7 @@ export function SlideWord(props) {
   const vStyle = props.align === "bottom" ? { bottom: `${vOffset}px` } : { top: `${vOffset}px` };
 
   return (
-    <html {...SIZE} x={0} y={0} start={props.nodeStart} end={props.nodeStart + ANIM}>
+    <html name={props.word} {...SIZE} x={0} y={0} start={props.nodeStart} end={props.nodeStart + ANIM} id="e2bxxa">
       <div style={{ position: "relative", width: "100%", height: "100%" }}>
         <div
           ref={el}
@@ -60,7 +61,7 @@ export function SlideWord(props) {
         >
           <For each={chars}>
             {(ch, i) => (
-              <span ref={(node) => (charEls[i()] = node)} style={{ color: INK }}>
+              <span ref={(node) => (charEls[i()] = dom(node))} style={{ color: INK }}>
                 {ch}
               </span>
             )}

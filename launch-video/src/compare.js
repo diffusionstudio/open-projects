@@ -1,5 +1,4 @@
 import { W, H } from "./frame.js";
-import { ASSETS } from "./assets.js";
 import { SETTLE, DIVE } from "./easing.js";
 import { WORD_DUR } from "./timing.js";
 import { PLAYER, COMPOSE_END } from "./compose.js";
@@ -18,8 +17,8 @@ import { ART_FOOTER } from "./compare-art.js";
 // the -hold copies carry the source's last frame held for two more seconds —
 // the raw cuts run out at 8s, a beat short of the way out, and the engine
 // clamps a clip to its source rather than holding it
-export const AROLL = `${ASSETS}/aroll.mp4`;
-export const AROLL_POST = `${ASSETS}/aroll-post.mp4`;
+export const AROLL = "aroll.mp4";
+export const AROLL_POST = "aroll-post.mp4";
 
 /* ── the rects ───────────────────────────────────────────────────────────── */
 

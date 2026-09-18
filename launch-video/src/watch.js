@@ -12,8 +12,10 @@ import { WORD_GONE } from "./analyze.js";
 
 export const COUNT = 10;
 
-// `<img>` inside an `<html>` is resolved by the host, so absolute paths —
-// not ones relative to this file. One cover per frame, in the frames' order.
+// An `<img>` inside HTML content only loads from an absolute path — a
+// library path or an asset id, which composition elements take, comes up
+// broken there — so the covers are named through `ASSETS`, this clone's own
+// assets folder (see assets.js). One cover per frame, in the frames' order.
 const COVER_DIR = `${ASSETS}/covers-640p`;
 export const COVER_SRCS = [
   "IMG_3207.png",

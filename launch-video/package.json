@@ -1,0 +1,17 @@
+{
+  "name": "launch-video",
+  "private": true,
+  "type": "module",
+  "main": "main.jsx",
+  "scripts": {
+    "open": "dapi open ."
+  },
+  "dependencies": {
+    "animejs": "^4.0.0"
+  },
+  "devDependencies": {
+    "@diffusionstudio/jsx": "latest",
+    "solid-js": "^1.9.10"
+  },
+  "projectId": "f3zl2xI7oNYHiUgZ3ymA0"
+}
