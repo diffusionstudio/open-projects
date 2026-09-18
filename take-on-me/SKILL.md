@@ -40,7 +40,7 @@ Don't interrogate the user. If the idea has no portal, antagonist, or ending, in
 
 ## Diffusion Studio
 
-The app's tools arrive over MCP (`open`, `check`, `capture`, `logs`, …) or as the `dapi` CLI (`dapi capture` = `capture`). If neither is available, install with `brew install --cask diffusionstudio/tap/editor`; if tools answer "The app has no window", ask the user to bring the app up.
+The app's tools arrive over MCP (`open`, `check`, `capture`, `logs`, …) or as the `dapi` CLI (`dapi capture` = `capture`). If neither is available, point the user to [diffusion.studio](https://www.diffusion.studio/) to download the app and install its MCP server; if tools answer "The app has no window", ask the user to bring the app up.
 
 The docs ship with the app at `/Applications/Diffusion Studio.app/Contents/Resources/docs` and win over anything written here. Read `skills/editor.md`, `reference/jsx/surface-paint.md`, `reference/jsx/lifecycle.md`, `reference/jsx/variables.md`, and `reference/tools/{open,check,capture}.md` once per session.
 

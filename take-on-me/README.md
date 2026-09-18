@@ -4,12 +4,11 @@ A Claude skill that turns a short story idea into a hand-drawn pencil-animation 
 
 ## Install
 
-Paste into Claude Code:
+Visit [diffusion.studio](https://www.diffusion.studio/), download the app, and install its MCP server. Then paste into Claude Code:
 
 ```
-Install the take-on-me skill: clone https://github.com/diffusionstudio/open-projects, copy its
-take-on-me folder to ~/.claude/skills/take-on-me, and make sure Diffusion Studio is installed
-(brew install --cask diffusionstudio/tap/editor) and running.
+Install the take-on-me skill: clone https://github.com/diffusionstudio/open-projects and copy its
+take-on-me folder to ~/.claude/skills/take-on-me.
 ```
 
 ## Make a video

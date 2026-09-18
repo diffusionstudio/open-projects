@@ -13,11 +13,8 @@ Each folder is a self-contained project with its own instructions.
 
 ## Getting started
 
-Install Diffusion Studio on macOS:
-
-```sh
-brew install --cask diffusionstudio/tap/editor
-```
+Visit [diffusion.studio](https://www.diffusion.studio/), download the app, and install its MCP server so your
+agent can drive the editor.
 
 Then follow the README or design brief inside the project you want to run.
 
