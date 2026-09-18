@@ -1,9 +1,8 @@
 # Open Projects
 
-A collection of projects generated with [Diffusion Studio](https://github.com/diffusionstudio/editor) —
-video compositions written as code, mounted and rendered through the `dapi` CLI.
+A collection of projects made with [Diffusion Studio](https://www.diffusion.studio/).
 
-Each folder is a self-contained project with its own instructions.
+Each folder is self-contained and comes with its own instructions.
 
 | Project | What it is |
 |---|---|
