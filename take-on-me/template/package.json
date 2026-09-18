@@ -1,0 +1,23 @@
+{
+  "name": "pencil-film",
+  "private": true,
+  "type": "module",
+  "main": "index.tsx",
+  "devDependencies": {
+    "@diffusionstudio/jsx": "latest",
+    "solid-js": "^1.9.10"
+  },
+  "diffusion": {
+    "export": {
+      "film": {
+        "format": "mp4",
+        "video": {
+          "codec": "avc",
+          "fps": 24,
+          "resolution": 1080,
+          "bitrate": 20000000
+        }
+      }
+    }
+  }
+}

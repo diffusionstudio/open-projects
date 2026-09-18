@@ -9,6 +9,7 @@ Each folder is a self-contained project with its own instructions.
 |---|---|
 | [launch-video](launch-video) | The Diffusion Studio launch video, written as a Solid JSX composition. |
 | [raise-announcement](raise-announcement) | A funding-announcement motion graphic, with the design brief it was built from. |
+| [take-on-me](take-on-me) | A Claude skill that turns a story idea into an a-ha "Take On Me" style pencil animation, with an example film. |
 
 ## Getting started
 
