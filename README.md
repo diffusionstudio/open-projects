@@ -1,12 +1,13 @@
 # Open Projects
 
-A collection of projects made with [Diffusion Studio](https://www.diffusion.studio/).
+A collection of projects made with [Diffusion Studio](https://github.com/diffusionstudio/editor).
 
 Each folder is self-contained and comes with its own instructions.
 
 | Project | What it is |
 |---|---|
 | [launch-video](launch-video) | The Diffusion Studio launch video, written as a Solid JSX composition. |
+| [leica-m6-blueprint](leica-m6-blueprint) | A blueprint-style technical animation of a Leica M6, line-rendered from a real three.js model, with the prompt it was built from. |
 | [raise-announcement](raise-announcement) | A funding-announcement motion graphic, with the design brief it was built from. |
 | [take-on-me](take-on-me) | A Claude skill that turns a story idea into an a-ha "Take On Me" style pencil animation, with an example film. |
 

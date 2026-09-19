@@ -1,0 +1,19 @@
+# Diffusion Studio asset library. Edited by the app; hand edits are read on the next load.
+version: 1
+folders: []
+assets:
+  - id: 05c720a93464fc3c
+    path: generated/luxury-electronic-music-design
+    source: assets/generated/luxury-electronic-music-design
+    createdAt: 2026-09-19T09:29:12.637Z
+    mimeType: audio/mpeg
+    stat:
+      size: 256254
+      mtime: 1789810152627
+    generation:
+      key: '{"type":"audio","model":"elevenlabs-music","prompt":"Instrumental precision electronic / minimal electro music for a luxury camera technical motion design film. 113 BPM, D minor. Cool, sophisticated, tactile analog synths, syncopated plucked arpeggio, deep clean sub bass, crisp tight drums, tasteful stereo detail. Exactly four bars of tension-building intro (about 8.5 seconds): start with sparse muted analog sequencer and airy texture, gradually open the filter, introduce a rising synth and accelerating percussion; keep the full kick and bass OUT of the intro. Tiny breath immediately before a powerful unmistakable beat drop at 8.5 seconds: punchy kick, deep grooving bass, dry snare/clap and intricate hi hats all enter together on the downbeat. The drop should feel sleek and energetic, not bombastic. Continue the confident driving groove to the end, with a tight ending accent at 15 seconds and a short reverb tail. No vocals, no spoken words, no vocal samples, no orchestral trailer sounds. High quality polished stereo mix, clean transients.","duration":16,"seed":6184}'
+      id: f9f3b680-3147-4ba3-805e-b378bc6ffcac
+    type: AUDIO
+    duration: 16.013061224489796
+    sampleRate: 44100
+    channels: 2

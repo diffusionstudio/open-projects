@@ -1,0 +1,41 @@
+{
+  "name": "leica-m6-blueprint",
+  "displayName": "Leica M6 Blueprint",
+  "private": true,
+  "type": "module",
+  "main": "index.tsx",
+  "scripts": {
+    "open": "dapi open .",
+    "typecheck": "tsc --noEmit",
+    "model": "tsc model.ts --target ES2022 --module ES2022 --moduleResolution bundler --outDir scripts --skipLibCheck --ignoreConfig && node scripts/save-model.mjs"
+  },
+  "dependencies": {
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@diffusionstudio/jsx": "latest",
+    "@types/three": "^0.186.0",
+    "solid-js": "^1.9.10",
+    "typescript": "^7.0.2"
+  },
+  "diffusion": {
+    "export": {
+      "leica-m6": {
+        "format": "mp4",
+        "video": {
+          "codec": "avc",
+          "bitrate": 18000000,
+          "fps": 60,
+          "resolution": 1080
+        },
+        "audio": {
+          "enabled": true,
+          "codec": "aac",
+          "sampleRate": 48000,
+          "bitrate": 320000
+        }
+      }
+    }
+  },
+  "projectId": "z5ynEyUqQuOLzp2Y_YzxF"
+}

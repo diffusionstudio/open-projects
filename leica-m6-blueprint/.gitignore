@@ -1,0 +1,8 @@
+# compiled from model.ts by `npm run model`
+scripts/model.js
+
+node_modules/
+cache/
+exports/
+.diffusion/
+.dstmp-*
