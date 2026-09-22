@@ -10,6 +10,7 @@ Each folder is self-contained and comes with its own instructions.
 | [leica-m6-blueprint](leica-m6-blueprint) | A blueprint-style technical animation of a Leica M6, line-rendered from a real three.js model, with the prompt it was built from. |
 | [raise-announcement](raise-announcement) | A funding-announcement motion graphic, with the design brief it was built from. |
 | [take-on-me](take-on-me) | A Claude skill that turns a story idea into an a-ha "Take On Me" style pencil animation, with an example film. |
+| [growth-report-custom-controls](growth-report-custom-controls) | An e-commerce growth report and a regional map driven entirely by `@inspect` custom controls: brand, data source, localization, imagery, layout and timing all managed from custom controls in the sidebar. |
 
 ## Getting started
 
