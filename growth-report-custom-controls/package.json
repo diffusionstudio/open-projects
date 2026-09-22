@@ -1,0 +1,17 @@
+{
+  "name": "growth-report-custom-controls",
+  "displayName": "Growth Report: Custom Controls",
+  "private": true,
+  "type": "module",
+  "main": "index.tsx",
+  "scripts": {
+    "open": "dapi open .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@diffusionstudio/jsx": "latest",
+    "solid-js": "^1.9.10",
+    "typescript": "^7.0.2"
+  },
+  "projectId": "_GoxdDkt0Hw0nn5pAG1BG"
+}

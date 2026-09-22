@@ -1,0 +1,917 @@
+# Diffusion Studio asset library. Edited by the app; hand edits are read on the next load.
+version: 1
+folders: []
+assets:
+  - id: c808e2b613c1c461
+    path: Product Shots/AW26-SHO-018_fisherman-sandal.jpg
+    source: assets/Product Shots/AW26-SHO-018_fisherman-sandal.jpg
+    createdAt: 2026-09-21T21:54:52.870Z
+    mimeType: image/jpeg
+    stat:
+      size: 131066
+      mtime: 1790027692403
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 9afdce2821cfe6a6
+    path: Product Shots/AW26-SHO-020_house-slipper.jpg
+    source: assets/Product Shots/AW26-SHO-020_house-slipper.jpg
+    createdAt: 2026-09-21T21:54:52.876Z
+    mimeType: image/jpeg
+    stat:
+      size: 165334
+      mtime: 1790027692423
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 8705b0c06a97f6c9
+    path: Product Shots/AW26-SHO-017_knee-high-boot.jpg
+    source: assets/Product Shots/AW26-SHO-017_knee-high-boot.jpg
+    createdAt: 2026-09-21T21:54:52.867Z
+    mimeType: image/jpeg
+    stat:
+      size: 118840
+      mtime: 1790027692392
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: c747c9101170082f
+    path: Product Shots/AW26-SHO-016_running-shoe.jpg
+    source: assets/Product Shots/AW26-SHO-016_running-shoe.jpg
+    createdAt: 2026-09-21T21:54:52.864Z
+    mimeType: image/jpeg
+    stat:
+      size: 141970
+      mtime: 1790027692383
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 52056d2952d4c167
+    path: Product Shots/AW26-SHO-019_monk-strap.jpg
+    source: assets/Product Shots/AW26-SHO-019_monk-strap.jpg
+    createdAt: 2026-09-21T21:54:52.873Z
+    mimeType: image/jpeg
+    stat:
+      size: 125089
+      mtime: 1790027692412
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 64cdad87fa979882
+    path: Product Shots/AW26-SHO-015_espadrille.jpg
+    source: assets/Product Shots/AW26-SHO-015_espadrille.jpg
+    createdAt: 2026-09-21T21:54:52.859Z
+    mimeType: image/jpeg
+    stat:
+      size: 176781
+      mtime: 1790027692374
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 0d33e9f40bf2ef5d
+    path: Product Shots/AW26-SHO-013_pump.jpg
+    source: assets/Product Shots/AW26-SHO-013_pump.jpg
+    createdAt: 2026-09-21T21:54:52.853Z
+    mimeType: image/jpeg
+    stat:
+      size: 121884
+      mtime: 1790027692355
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: b5439fc6c65a5c51
+    path: Product Shots/AW26-SHO-014_ankle-strap-heel.jpg
+    source: assets/Product Shots/AW26-SHO-014_ankle-strap-heel.jpg
+    createdAt: 2026-09-21T21:54:52.856Z
+    mimeType: image/jpeg
+    stat:
+      size: 110315
+      mtime: 1790027692364
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: e8f2114b6831db1b
+    path: Product Shots/AW26-OUT-020_windbreaker.jpg
+    source: assets/Product Shots/AW26-OUT-020_windbreaker.jpg
+    createdAt: 2026-09-21T21:54:52.850Z
+    mimeType: image/jpeg
+    stat:
+      size: 110719
+      mtime: 1790027692494
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: "8484e59754874462"
+    path: Product Shots/AW26-OUT-019_teddy-coat.jpg
+    source: assets/Product Shots/AW26-OUT-019_teddy-coat.jpg
+    createdAt: 2026-09-21T21:54:52.847Z
+    mimeType: image/jpeg
+    stat:
+      size: 126043
+      mtime: 1790027692485
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: e2bd5673b92c61ad
+    path: Product Shots/AW26-OUT-018_overshirt.jpg
+    source: assets/Product Shots/AW26-OUT-018_overshirt.jpg
+    createdAt: 2026-09-21T21:54:52.843Z
+    mimeType: image/jpeg
+    stat:
+      size: 114436
+      mtime: 1790027692475
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: dc6653b2a59d7f6d
+    path: Product Shots/AW26-OUT-017_chore-jacket.jpg
+    source: assets/Product Shots/AW26-OUT-017_chore-jacket.jpg
+    createdAt: 2026-09-21T21:54:52.840Z
+    mimeType: image/jpeg
+    stat:
+      size: 114651
+      mtime: 1790027692466
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 2917af6f0103f457
+    path: Product Shots/AW26-OUT-016_varsity-jacket.jpg
+    source: assets/Product Shots/AW26-OUT-016_varsity-jacket.jpg
+    createdAt: 2026-09-21T21:54:52.837Z
+    mimeType: image/jpeg
+    stat:
+      size: 120183
+      mtime: 1790027692457
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 4e91c8e6688ee73c
+    path: Product Shots/AW26-OUT-015_raincoat.jpg
+    source: assets/Product Shots/AW26-OUT-015_raincoat.jpg
+    createdAt: 2026-09-21T21:54:52.834Z
+    mimeType: image/jpeg
+    stat:
+      size: 95000
+      mtime: 1790027692448
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 0a66030a04dba8be
+    path: Product Shots/AW26-OUT-014_gilet.jpg
+    source: assets/Product Shots/AW26-OUT-014_gilet.jpg
+    createdAt: 2026-09-21T21:54:52.831Z
+    mimeType: image/jpeg
+    stat:
+      size: 109200
+      mtime: 1790027692440
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 9564536e0bc07425
+    path: Product Shots/AW26-OUT-013_peacoat.jpg
+    source: assets/Product Shots/AW26-OUT-013_peacoat.jpg
+    createdAt: 2026-09-21T21:54:52.828Z
+    mimeType: image/jpeg
+    stat:
+      size: 114059
+      mtime: 1790027692432
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 14e823aec1c58def
+    path: Product Shots/AW26-BAG-020_nylon-shopper.jpg
+    source: assets/Product Shots/AW26-BAG-020_nylon-shopper.jpg
+    createdAt: 2026-09-21T21:54:52.825Z
+    mimeType: image/jpeg
+    stat:
+      size: 101703
+      mtime: 1790027692345
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 1df39d950bfbca62
+    path: Product Shots/AW26-BAG-018_laptop-sleeve.jpg
+    source: assets/Product Shots/AW26-BAG-018_laptop-sleeve.jpg
+    createdAt: 2026-09-21T21:54:52.817Z
+    mimeType: image/jpeg
+    stat:
+      size: 189647
+      mtime: 1790027692337
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 16691debe6b8409f
+    path: Product Shots/AW26-BAG-017_basket-bag.jpg
+    source: assets/Product Shots/AW26-BAG-017_basket-bag.jpg
+    createdAt: 2026-09-21T21:54:52.814Z
+    mimeType: image/jpeg
+    stat:
+      size: 117405
+      mtime: 1790027692326
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: ebbf1950969cbe0b
+    path: Product Shots/AW26-BAG-019_camera-bag.jpg
+    source: assets/Product Shots/AW26-BAG-019_camera-bag.jpg
+    createdAt: 2026-09-21T21:54:52.822Z
+    mimeType: image/jpeg
+    stat:
+      size: 122970
+      mtime: 1790027692582
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 1be0ee1801ec83f2
+    path: Product Shots/AW26-BAG-016_phone-pouch.jpg
+    source: assets/Product Shots/AW26-BAG-016_phone-pouch.jpg
+    createdAt: 2026-09-21T21:54:52.809Z
+    mimeType: image/jpeg
+    stat:
+      size: 114368
+      mtime: 1790027692317
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 2967722562e2aa5c
+    path: Product Shots/AW26-BAG-015_messenger-bag.jpg
+    source: assets/Product Shots/AW26-BAG-015_messenger-bag.jpg
+    createdAt: 2026-09-21T21:54:52.807Z
+    mimeType: image/jpeg
+    stat:
+      size: 121965
+      mtime: 1790027692309
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 1d5063d863f0fe82
+    path: Product Shots/AW26-BAG-014_doctor-bag.jpg
+    source: assets/Product Shots/AW26-BAG-014_doctor-bag.jpg
+    createdAt: 2026-09-21T21:54:52.803Z
+    mimeType: image/jpeg
+    stat:
+      size: 121763
+      mtime: 1790027692299
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 086f525edfb89b7c
+    path: Product Shots/AW26-BAG-013_hobo-bag.jpg
+    source: assets/Product Shots/AW26-BAG-013_hobo-bag.jpg
+    createdAt: 2026-09-21T21:54:52.800Z
+    mimeType: image/jpeg
+    stat:
+      size: 109652
+      mtime: 1790027692289
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 619a3b70102fccb1
+    path: Product Shots/AW26-ACC-020_necklace.jpg
+    source: assets/Product Shots/AW26-ACC-020_necklace.jpg
+    createdAt: 2026-09-21T21:54:52.797Z
+    mimeType: image/jpeg
+    stat:
+      size: 162028
+      mtime: 1790027692573
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 9cf84a14b91c0789
+    path: Product Shots/AW26-ACC-019_phone-case.jpg
+    source: assets/Product Shots/AW26-ACC-019_phone-case.jpg
+    createdAt: 2026-09-21T21:54:52.792Z
+    mimeType: image/jpeg
+    stat:
+      size: 106038
+      mtime: 1790027692563
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 719cabf25764189e
+    path: Product Shots/AW26-ACC-018_fedora.jpg
+    source: assets/Product Shots/AW26-ACC-018_fedora.jpg
+    createdAt: 2026-09-21T21:54:52.789Z
+    mimeType: image/jpeg
+    stat:
+      size: 124620
+      mtime: 1790027692554
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: a45d4e7e297d6e5c
+    path: Product Shots/AW26-ACC-017_umbrella.jpg
+    source: assets/Product Shots/AW26-ACC-017_umbrella.jpg
+    createdAt: 2026-09-21T21:54:52.784Z
+    mimeType: image/jpeg
+    stat:
+      size: 110809
+      mtime: 1790027692544
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: a4cb3622ae669bce
+    path: Product Shots/AW26-ACC-016_earrings.jpg
+    source: assets/Product Shots/AW26-ACC-016_earrings.jpg
+    createdAt: 2026-09-21T21:54:52.781Z
+    mimeType: image/jpeg
+    stat:
+      size: 141732
+      mtime: 1790027692535
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 209f06531b1bc870
+    path: Product Shots/AW26-ACC-015_cardholder.jpg
+    source: assets/Product Shots/AW26-ACC-015_cardholder.jpg
+    createdAt: 2026-09-21T21:54:52.777Z
+    mimeType: image/jpeg
+    stat:
+      size: 174186
+      mtime: 1790027692525
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 3d4e7aaa77219c30
+    path: Product Shots/AW26-ACC-014_socks.jpg
+    source: assets/Product Shots/AW26-ACC-014_socks.jpg
+    createdAt: 2026-09-21T21:54:52.773Z
+    mimeType: image/jpeg
+    stat:
+      size: 186563
+      mtime: 1790027692514
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: c1fe4fff81bb9b4f
+    path: Product Shots/AW26-ACC-013_knit-tie.jpg
+    source: assets/Product Shots/AW26-ACC-013_knit-tie.jpg
+    createdAt: 2026-09-21T21:54:52.768Z
+    mimeType: image/jpeg
+    stat:
+      size: 135946
+      mtime: 1790027692504
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 8db242f38a53df87
+    path: Product Shots/AW26-SHO-012_mule.jpg
+    source: assets/Product Shots/AW26-SHO-012_mule.jpg
+    createdAt: 2026-09-21T21:47:58.838Z
+    mimeType: image/jpeg
+    stat:
+      size: 123665
+      mtime: 1790027278410
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 436a9bd4afeac767
+    path: Product Shots/AW26-SHO-011_brogue.jpg
+    source: assets/Product Shots/AW26-SHO-011_brogue.jpg
+    createdAt: 2026-09-21T21:47:58.835Z
+    mimeType: image/jpeg
+    stat:
+      size: 136460
+      mtime: 1790027278401
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 14854bad2f160e7d
+    path: Product Shots/AW26-SHO-010_high-top-sneaker.jpg
+    source: assets/Product Shots/AW26-SHO-010_high-top-sneaker.jpg
+    createdAt: 2026-09-21T21:47:58.832Z
+    mimeType: image/jpeg
+    stat:
+      size: 128226
+      mtime: 1790027278391
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: a39e2401595cb09a
+    path: Product Shots/AW26-SHO-009_slide-sandal.jpg
+    source: assets/Product Shots/AW26-SHO-009_slide-sandal.jpg
+    createdAt: 2026-09-21T21:47:58.828Z
+    mimeType: image/jpeg
+    stat:
+      size: 107026
+      mtime: 1790027278382
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 9a845c4469011820
+    path: Product Shots/AW26-SHO-008_ballet-flat.jpg
+    source: assets/Product Shots/AW26-SHO-008_ballet-flat.jpg
+    createdAt: 2026-09-21T21:47:58.825Z
+    mimeType: image/jpeg
+    stat:
+      size: 116277
+      mtime: 1790027278373
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 59ee352a4639f4ce
+    path: Product Shots/AW26-SHO-007_hiking-boot.jpg
+    source: assets/Product Shots/AW26-SHO-007_hiking-boot.jpg
+    createdAt: 2026-09-21T21:47:58.822Z
+    mimeType: image/jpeg
+    stat:
+      size: 171083
+      mtime: 1790027278365
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 838ac1b83a213c41
+    path: Product Shots/AW26-OUT-012_cardigan-coat.jpg
+    source: assets/Product Shots/AW26-OUT-012_cardigan-coat.jpg
+    createdAt: 2026-09-21T21:47:58.818Z
+    mimeType: image/jpeg
+    stat:
+      size: 117710
+      mtime: 1790027278461
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: b0d272166bc1f1d1
+    path: Product Shots/AW26-OUT-011_shearling-jacket.jpg
+    source: assets/Product Shots/AW26-OUT-011_shearling-jacket.jpg
+    createdAt: 2026-09-21T21:47:58.816Z
+    mimeType: image/jpeg
+    stat:
+      size: 112037
+      mtime: 1790027278452
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: ee4f88b88eee0935
+    path: Product Shots/AW26-OUT-010_mac-coat.jpg
+    source: assets/Product Shots/AW26-OUT-010_mac-coat.jpg
+    createdAt: 2026-09-21T21:47:58.812Z
+    mimeType: image/jpeg
+    stat:
+      size: 103557
+      mtime: 1790027278444
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 2166f6ce26954972
+    path: Product Shots/AW26-OUT-009_bomber-jacket.jpg
+    source: assets/Product Shots/AW26-OUT-009_bomber-jacket.jpg
+    createdAt: 2026-09-21T21:47:58.809Z
+    mimeType: image/jpeg
+    stat:
+      size: 92947
+      mtime: 1790027278435
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: b11f1ffaf17e28e4
+    path: Product Shots/AW26-OUT-008_wool-cape.jpg
+    source: assets/Product Shots/AW26-OUT-008_wool-cape.jpg
+    createdAt: 2026-09-21T21:47:58.807Z
+    mimeType: image/jpeg
+    stat:
+      size: 101739
+      mtime: 1790027278428
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 516c8ad80b31a6dc
+    path: Product Shots/AW26-OUT-007_denim-jacket.jpg
+    source: assets/Product Shots/AW26-OUT-007_denim-jacket.jpg
+    createdAt: 2026-09-21T21:47:58.803Z
+    mimeType: image/jpeg
+    stat:
+      size: 118857
+      mtime: 1790027278419
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: f7158f03d3afb647
+    path: Product Shots/AW26-BAG-012_shoulder-bag.jpg
+    source: assets/Product Shots/AW26-BAG-012_shoulder-bag.jpg
+    createdAt: 2026-09-21T21:47:58.800Z
+    mimeType: image/jpeg
+    stat:
+      size: 136697
+      mtime: 1790027278355
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 28d04c3ebfb904c7
+    path: Product Shots/AW26-BAG-011_drawstring-bag.jpg
+    source: assets/Product Shots/AW26-BAG-011_drawstring-bag.jpg
+    createdAt: 2026-09-21T21:47:58.797Z
+    mimeType: image/jpeg
+    stat:
+      size: 99010
+      mtime: 1790027278345
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 5c5391f919d3c0cc
+    path: Product Shots/AW26-BAG-010_mini-top-handle.jpg
+    source: assets/Product Shots/AW26-BAG-010_mini-top-handle.jpg
+    createdAt: 2026-09-21T21:47:58.793Z
+    mimeType: image/jpeg
+    stat:
+      size: 114075
+      mtime: 1790027278528
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: a610dbfb0373c96c
+    path: Product Shots/AW26-BAG-009_belt-bag.jpg
+    source: assets/Product Shots/AW26-BAG-009_belt-bag.jpg
+    createdAt: 2026-09-21T21:47:58.790Z
+    mimeType: image/jpeg
+    stat:
+      size: 135779
+      mtime: 1790027278337
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 71996f87e634de67
+    path: Product Shots/AW26-BAG-008_briefcase.jpg
+    source: assets/Product Shots/AW26-BAG-008_briefcase.jpg
+    createdAt: 2026-09-21T21:47:58.786Z
+    mimeType: image/jpeg
+    stat:
+      size: 118773
+      mtime: 1790027278328
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: fac8ae68838bb160
+    path: Product Shots/AW26-BAG-007_saddle-bag.jpg
+    source: assets/Product Shots/AW26-BAG-007_saddle-bag.jpg
+    createdAt: 2026-09-21T21:47:58.783Z
+    mimeType: image/jpeg
+    stat:
+      size: 130058
+      mtime: 1790027278319
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: fb398b9d22d1489b
+    path: Product Shots/AW26-ACC-012_bucket-hat.jpg
+    source: assets/Product Shots/AW26-ACC-012_bucket-hat.jpg
+    createdAt: 2026-09-21T21:47:58.780Z
+    mimeType: image/jpeg
+    stat:
+      size: 107925
+      mtime: 1790027278520
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: bedc9850d836a5ad
+    path: Product Shots/AW26-ACC-011_bracelet.jpg
+    source: assets/Product Shots/AW26-ACC-011_bracelet.jpg
+    createdAt: 2026-09-21T21:47:58.777Z
+    mimeType: image/jpeg
+    stat:
+      size: 155789
+      mtime: 1790027278511
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 2eca8869472faef8
+    path: Product Shots/AW26-ACC-010_knit-scarf.jpg
+    source: assets/Product Shots/AW26-ACC-010_knit-scarf.jpg
+    createdAt: 2026-09-21T21:47:58.774Z
+    mimeType: image/jpeg
+    stat:
+      size: 131683
+      mtime: 1790027278501
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: ee4dc3ccab0cb624
+    path: Product Shots/AW26-ACC-009_leather-gloves.jpg
+    source: assets/Product Shots/AW26-ACC-009_leather-gloves.jpg
+    createdAt: 2026-09-21T21:47:58.770Z
+    mimeType: image/jpeg
+    stat:
+      size: 174851
+      mtime: 1790027278491
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 2046ea1573c04115
+    path: Product Shots/AW26-ACC-008_wool-beanie.jpg
+    source: assets/Product Shots/AW26-ACC-008_wool-beanie.jpg
+    createdAt: 2026-09-21T21:47:58.767Z
+    mimeType: image/jpeg
+    stat:
+      size: 126343
+      mtime: 1790027278480
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: c1f6701bbb19de11
+    path: Product Shots/AW26-ACC-007_leather-wallet.jpg
+    source: assets/Product Shots/AW26-ACC-007_leather-wallet.jpg
+    createdAt: 2026-09-21T21:47:58.764Z
+    mimeType: image/jpeg
+    stat:
+      size: 129720
+      mtime: 1790027278471
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 8c1546622e4da249
+    path: Product Shots/AW26-SHT-001_linen-shirt.jpg
+    source: assets/Product Shots/AW26-SHT-001_linen-shirt.jpg
+    createdAt: 2026-09-21T21:04:28.167Z
+    mimeType: image/jpeg
+    stat:
+      size: 180899
+      mtime: 1790024667874
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 198c6d0435df7526
+    path: Product Shots/AW26-SHO-006_white-trainer.jpg
+    source: assets/Product Shots/AW26-SHO-006_white-trainer.jpg
+    createdAt: 2026-09-21T21:04:28.164Z
+    mimeType: image/jpeg
+    stat:
+      size: 126354
+      mtime: 1790024667739
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: d0837792f6c21f99
+    path: Product Shots/AW26-SHO-005_derby.jpg
+    source: assets/Product Shots/AW26-SHO-005_derby.jpg
+    createdAt: 2026-09-21T21:04:28.161Z
+    mimeType: image/jpeg
+    stat:
+      size: 125981
+      mtime: 1790024667729
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 871a0313b6e7703f
+    path: Product Shots/AW26-SHO-004_heeled-sandal.jpg
+    source: assets/Product Shots/AW26-SHO-004_heeled-sandal.jpg
+    createdAt: 2026-09-21T21:04:28.158Z
+    mimeType: image/jpeg
+    stat:
+      size: 110292
+      mtime: 1790024667720
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: e0970d32fcd6f9ad
+    path: Product Shots/AW26-SHO-003_suede-loafer.jpg
+    source: assets/Product Shots/AW26-SHO-003_suede-loafer.jpg
+    createdAt: 2026-09-21T21:04:28.155Z
+    mimeType: image/jpeg
+    stat:
+      size: 156249
+      mtime: 1790024667711
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 1f0a7f3beb441862
+    path: Product Shots/AW26-SHO-002_chelsea-boot.jpg
+    source: assets/Product Shots/AW26-SHO-002_chelsea-boot.jpg
+    createdAt: 2026-09-21T21:04:28.152Z
+    mimeType: image/jpeg
+    stat:
+      size: 125776
+      mtime: 1790024667701
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 82be0abdf734fd6f
+    path: Product Shots/AW26-SHO-001_leather-sneaker.jpg
+    source: assets/Product Shots/AW26-SHO-001_leather-sneaker.jpg
+    createdAt: 2026-09-21T21:04:28.149Z
+    mimeType: image/jpeg
+    stat:
+      size: 127873
+      mtime: 1790024667692
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 9f7b79357ef663f4
+    path: Product Shots/AW26-OUT-006_wool-parka.jpg
+    source: assets/Product Shots/AW26-OUT-006_wool-parka.jpg
+    createdAt: 2026-09-21T21:04:28.144Z
+    mimeType: image/jpeg
+    stat:
+      size: 111929
+      mtime: 1790024667791
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 09aaf103c733ca79
+    path: Product Shots/AW26-OUT-005_biker-jacket.jpg
+    source: assets/Product Shots/AW26-OUT-005_biker-jacket.jpg
+    createdAt: 2026-09-21T21:04:28.141Z
+    mimeType: image/jpeg
+    stat:
+      size: 123109
+      mtime: 1790024667783
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 4984f83093f258b3
+    path: Product Shots/AW26-OUT-004_puffer-jacket.jpg
+    source: assets/Product Shots/AW26-OUT-004_puffer-jacket.jpg
+    createdAt: 2026-09-21T21:04:28.137Z
+    mimeType: image/jpeg
+    stat:
+      size: 106156
+      mtime: 1790024667775
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 1059e1711e43f879
+    path: Product Shots/AW26-OUT-003_trench-coat.jpg
+    source: assets/Product Shots/AW26-OUT-003_trench-coat.jpg
+    createdAt: 2026-09-21T21:04:28.134Z
+    mimeType: image/jpeg
+    stat:
+      size: 104048
+      mtime: 1790024667766
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 9b6d1dbabc76a37f
+    path: Product Shots/AW26-OUT-002_oversized-blazer.jpg
+    source: assets/Product Shots/AW26-OUT-002_oversized-blazer.jpg
+    createdAt: 2026-09-21T21:04:28.131Z
+    mimeType: image/jpeg
+    stat:
+      size: 152738
+      mtime: 1790024667757
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 968719cb12142cba
+    path: Product Shots/AW26-OUT-001_wool-coat.jpg
+    source: assets/Product Shots/AW26-OUT-001_wool-coat.jpg
+    createdAt: 2026-09-21T21:04:28.127Z
+    mimeType: image/jpeg
+    stat:
+      size: 104255
+      mtime: 1790024667747
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: e6d59f4ba3492753
+    path: Product Shots/AW26-KNT-001_knit-sweater.jpg
+    source: assets/Product Shots/AW26-KNT-001_knit-sweater.jpg
+    createdAt: 2026-09-21T21:04:28.121Z
+    mimeType: image/jpeg
+    stat:
+      size: 166317
+      mtime: 1790024667855
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: dd08fdb069b5b305
+    path: Product Shots/AW26-BAG-006_bucket-bag.jpg
+    source: assets/Product Shots/AW26-BAG-006_bucket-bag.jpg
+    createdAt: 2026-09-21T21:04:28.117Z
+    mimeType: image/jpeg
+    stat:
+      size: 97806
+      mtime: 1790024667682
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 8fd6697a5e2b40d3
+    path: Product Shots/AW26-KNT-002_turtleneck-pleated-skirt.jpg
+    source: assets/Product Shots/AW26-KNT-002_turtleneck-pleated-skirt.jpg
+    createdAt: 2026-09-21T21:04:28.124Z
+    mimeType: image/jpeg
+    stat:
+      size: 114156
+      mtime: 1790024667864
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 7a1077e999a1370d
+    path: Product Shots/AW26-BAG-005_weekender.jpg
+    source: assets/Product Shots/AW26-BAG-005_weekender.jpg
+    createdAt: 2026-09-21T21:04:28.114Z
+    mimeType: image/jpeg
+    stat:
+      size: 126055
+      mtime: 1790024667674
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 1e5bd66ba957832e
+    path: Product Shots/AW26-BAG-004_leather-clutch.jpg
+    source: assets/Product Shots/AW26-BAG-004_leather-clutch.jpg
+    createdAt: 2026-09-21T21:04:28.111Z
+    mimeType: image/jpeg
+    stat:
+      size: 126178
+      mtime: 1790024667665
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: a17d3956c8d0015d
+    path: Product Shots/AW26-BAG-003_canvas-backpack.jpg
+    source: assets/Product Shots/AW26-BAG-003_canvas-backpack.jpg
+    createdAt: 2026-09-21T21:04:28.108Z
+    mimeType: image/jpeg
+    stat:
+      size: 122810
+      mtime: 1790024667655
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 01e98c350d192be9
+    path: Product Shots/AW26-BAG-002_crossbody-bag.jpg
+    source: assets/Product Shots/AW26-BAG-002_crossbody-bag.jpg
+    createdAt: 2026-09-21T21:04:28.105Z
+    mimeType: image/jpeg
+    stat:
+      size: 126976
+      mtime: 1790024667645
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 43a91e08e199d986
+    path: Product Shots/AW26-BAG-001_leather-tote.jpg
+    source: assets/Product Shots/AW26-BAG-001_leather-tote.jpg
+    createdAt: 2026-09-21T21:04:28.102Z
+    mimeType: image/jpeg
+    stat:
+      size: 141061
+      mtime: 1790024667636
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: bcde52eb099240d4
+    path: Product Shots/AW26-ACC-006_wool-cap.jpg
+    source: assets/Product Shots/AW26-ACC-006_wool-cap.jpg
+    createdAt: 2026-09-21T21:04:28.098Z
+    mimeType: image/jpeg
+    stat:
+      size: 119415
+      mtime: 1790024667846
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 6be1dfdbca856b28
+    path: Product Shots/AW26-ACC-005_silk-scarf.jpg
+    source: assets/Product Shots/AW26-ACC-005_silk-scarf.jpg
+    createdAt: 2026-09-21T21:04:28.094Z
+    mimeType: image/jpeg
+    stat:
+      size: 120400
+      mtime: 1790024667837
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: bbd94179c7ec6fbf
+    path: Product Shots/AW26-ACC-004_leather-strap-watch.jpg
+    source: assets/Product Shots/AW26-ACC-004_leather-strap-watch.jpg
+    createdAt: 2026-09-21T21:04:28.091Z
+    mimeType: image/jpeg
+    stat:
+      size: 108642
+      mtime: 1790024667829
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 6c5bddf9a4d0a415
+    path: Product Shots/AW26-ACC-003_leather-belt.jpg
+    source: assets/Product Shots/AW26-ACC-003_leather-belt.jpg
+    createdAt: 2026-09-21T21:04:28.086Z
+    mimeType: image/jpeg
+    stat:
+      size: 114729
+      mtime: 1790024667819
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 7f374bd592824b92
+    path: Product Shots/AW26-ACC-002_metal-frame-sunglasses.jpg
+    source: assets/Product Shots/AW26-ACC-002_metal-frame-sunglasses.jpg
+    createdAt: 2026-09-21T21:04:28.083Z
+    mimeType: image/jpeg
+    stat:
+      size: 111651
+      mtime: 1790024667810
+    type: IMAGE
+    width: 1024
+    height: 576
+  - id: 5aaee92e42253094
+    path: Product Shots/AW26-ACC-001_accessories-flatlay.jpg
+    source: assets/Product Shots/AW26-ACC-001_accessories-flatlay.jpg
+    createdAt: 2026-09-21T21:04:28.080Z
+    mimeType: image/jpeg
+    stat:
+      size: 137582
+      mtime: 1790024667801
+    type: IMAGE
+    width: 1024
+    height: 576
